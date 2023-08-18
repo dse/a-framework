@@ -15,16 +15,21 @@
     --font-size-h4: 1.5rem;
     --font-size-h5: 1.25rem;
     --font-size-h6: 1rem;
+    --font-weight-heading: bold;
+    --font-style-heading: normal;
+    --font-family-heading: inherit;
 }
 
 :root {
     --color: #222222;
     --background-color: #f2f2f2;
+    --color-heading: inherit;
 }
 @media (prefers-color-scheme: dark) {
     :root {
         --color: #f2f2f2;
         --background-color: #222222;
+        --color-heading: inherit;
     }
 }
 
@@ -75,6 +80,10 @@ h6, .h6 {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     margin-top: var(--margin-top-heading);
     margin-bottom: var(--margin-bottom-heading);
+    font-weight: var(--font-weight-heading);
+    font-style: var(--font-style-heading);
+    font-family: var(--font-family-heading);
+    color: var(--color-heading);
 }
 
 p, .p, ul, ol, dl, dir, menu {
