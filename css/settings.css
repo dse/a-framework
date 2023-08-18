@@ -16,6 +16,12 @@
     --font-weight-heading: bold;
     --font-style-heading: normal;
     --font-family-heading: inherit;
+
+    --max-width-container: 1200px;
+    --max-width-container-text: 80ch;
+    --gutter: 2rem;
+    --margin-top-nested-list: 0;
+    --margin-bottom-nested-list: 0;
 }
 
 :root {
