@@ -1,37 +1,5 @@
 @import url('normalize.css');
-
-:root {
-    --font-family: 'Arial', 'Helvetica', sans-serif;
-    --font-size: 16px;
-    --font-weight: normal;
-    --line-height: 1.5;
-    --margin-top-heading: 0;
-    --margin-bottom-heading: 0.5rem;
-    --margin-top-p: 0;
-    --margin-bottom-p: 1rem;
-    --font-size-h1: 2.5rem;
-    --font-size-h2: 2rem;
-    --font-size-h3: 1.75rem;
-    --font-size-h4: 1.5rem;
-    --font-size-h5: 1.25rem;
-    --font-size-h6: 1rem;
-    --font-weight-heading: bold;
-    --font-style-heading: normal;
-    --font-family-heading: inherit;
-}
-
-:root {
-    --color: #222222;
-    --background-color: #f2f2f2;
-    --color-heading: inherit;
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color: #f2f2f2;
-        --background-color: #222222;
-        --color-heading: inherit;
-    }
-}
+@import url('settings.css');
 
 *,
 *::before,
