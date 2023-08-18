@@ -55,7 +55,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: var(--color-heading);
 }
 
-p, .p, ul, ol, dl, dir, menu {
+p, .p, ul, ol, dl, dir, menu, pre, blockquote, table {
     margin-top: var(--margin-top-p);
     margin-bottom: var(--margin-bottom-p);
+}
+
+ul ul, ul ol, ul dl, ul dir, ul menu,
+ol ul, ol ol, ol dl, ol dir, ol menu,
+dl ul, dl ol, dl dl, dl dir, dl menu,
+dir ul, dir ol, dir dl, dir dir, dir menu,
+menu ul, menu ol, menu dl, menu dir, menu menu {
+    margin-top: var(--margin-top-nested-list);
+    margin-top: var(--margin-bottom-nested-list);
 }
