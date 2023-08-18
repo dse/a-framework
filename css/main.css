@@ -8,13 +8,13 @@
 }
 
 :root {
-    color: #222222;
-    background-color: #f2f2f2;
+    --color: #222222;
+    --background-color: #f2f2f2;
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        color: #f2f2f2;
-        background-color: #222222;
+        --color: #f2f2f2;
+        --background-color: #222222;
     }
 }
 
