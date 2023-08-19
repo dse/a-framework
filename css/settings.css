@@ -26,10 +26,15 @@
     --line-height-h6: 1.5;
 
     --max-width-container: 1200px;
-    --max-width-container-text: 80ch;
     --gutter: 2rem;
     --margin-top-nested-list: 0;
     --margin-bottom-nested-list: 0;
+
+    /*
+     * text too wide is harder to read, roughly 80 chars wide happens to
+     * be good.
+     */
+    --max-width-container-text: 80ch;
 
     /* NOTE: can't use these in plain browser @media queries. */
     --breakpoint-xs: 0;
