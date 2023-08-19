@@ -1,6 +1,6 @@
 .grid-x {
-    display: flex;
-    flex-flow: row wrap;
+    display: flex;              /*COMMON*/
+    flex-flow: row wrap;        /*COMMON*/
 }
 
 .cell {
@@ -61,10 +61,10 @@
 }
 
 .grid-padding-x {
-    margin-right: -0.625rem;
-    margin-left: -0.625rem;
+    margin-right: -0.625rem;    /*COMMON*/
+    margin-left: -0.625rem;     /*COMMON*/
 }
 .grid-padding-x > .cell {
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
+    padding-right: 0.625rem;    /*COMMON*/
+    padding-left: 0.625rem;     /*COMMON*/
 }
