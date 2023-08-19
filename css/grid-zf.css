@@ -1,3 +1,5 @@
+/* DEFAULTS: flex: 0 1 auto */
+
 .cell {
     flex: 0 0 auto;
     min-width: 0;
@@ -22,34 +24,4 @@
 }
 .grid-x > .small-full {
     flex-basis: auto;
-}
-
-.grid-x > .small-1,
-.grid-x > .small-2,
-.grid-x > .small-3,
-.grid-x > .small-4,
-.grid-x > .small-5,
-.grid-x > .small-6,
-.grid-x > .small-7,
-.grid-x > .small-8,
-.grid-x > .small-9,
-.grid-x > .small-10,
-.grid-x > .small-11,
-.grid-x > .small-12 {
-    flex-basis: auto;
-}
-
-.grid-x > .small-12,
-.grid-x > .small-11,
-.grid-x > .small-10,
-.grid-x > .small-9,
-.grid-x > .small-8,
-.grid-x > .small-7,
-.grid-x > .small-6,
-.grid-x > .small-5,
-.grid-x > .small-4,
-.grid-x > .small-3,
-.grid-x > .small-2,
-.grid-x > .small-1 {
-    flex: 0 0 auto;
 }
