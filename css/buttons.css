@@ -1,0 +1,61 @@
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: var(--padding-button);
+    background-color: var(--background-color-button);
+    color: var(--color-button);
+
+    font-weight: var(--font-weight-button);
+    font-size: var(--font-size-button);
+    font-style: var(--font-style-button);
+    letter-spacing: var(--letter-spacing-button);
+    line-height: var(--line-height-button);
+
+    border-width: var(--border-width-button);
+    border-style: var(--border-style-button);
+    border-color: var(--border-color-button);
+    border-radius: var(--border-radius-button);
+
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    transition: color 0.15s ease-in-out,
+                background-color 0.15s ease-in-out,
+                border-color 0.15s ease-in-out,
+                box-shadow 0.15s ease-in-out,
+                opacity 0.15s ease-in-out;
+}
+.button:hover {
+    opacity: 0.75;
+}
+
+.button--primary {
+    background-color: var(--background-color-primary);
+    color: var(--color-primary);
+}
+.button--secondary {
+    background-color: var(--background-color-secondary);
+    color: var(--color-secondary);
+}
+.button--success {
+    background-color: var(--background-color-info);
+    color: var(--color-info);
+}
+.button--info {
+    background-color: var(--background-color-info);
+    color: var(--color-info);
+}
+.button--warning {
+    background-color: var(--background-color-warning);
+    color: var(--color-warning);
+}
+.button--danger {
+    background-color: var(--background-color-danger);
+    color: var(--color-danger);
+}
