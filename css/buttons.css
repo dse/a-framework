@@ -44,8 +44,8 @@
     color: var(--color-secondary);
 }
 .button--success {
-    background-color: var(--background-color-info);
-    color: var(--color-info);
+    background-color: var(--background-color-success);
+    color: var(--color-success);
 }
 .button--info {
     background-color: var(--background-color-info);
