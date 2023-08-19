@@ -23,8 +23,13 @@
     width: auto;
 }
 
-.grid-x > .small-shrink,
-.grid-x > .small-full,
+.grid-x > .small-shrink {
+    flex-basis: auto;
+}
+.grid-x > .small-full {
+    flex-basis: auto;
+}
+
 .grid-x > .small-1,
 .grid-x > .small-2,
 .grid-x > .small-3,
@@ -53,31 +58,4 @@
 .grid-x > .small-2,
 .grid-x > .small-1 {
     flex: 0 0 auto;
-}
-
-@media print,
-screen and (min-width: 40em) {
-    .grid-x > .medium-auto {
-        flex: 1 1 0;
-        width: auto;
-    }
-    .grid-x > .medium-shrink {
-        flex: 0 0 auto;
-    }
-    .grid-x > .medium-shrink {
-        width: auto;
-    }
-}
-@media print,
-screen and (min-width: 64em) {
-    .grid-x > .large-auto {
-        flex: 1 1 0;
-        width: auto;
-    }
-    .grid-x > .large-shrink {
-        flex: 0 0 auto;
-    }
-    .grid-x > .large-shrink {
-        width: auto;
-    }
 }
