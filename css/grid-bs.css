@@ -9,14 +9,6 @@
 .row-cols-auto > * {
     flex: 0 0 auto;
 }
-.row-cols-1 > *,
-.row-cols-2 > *,
-.row-cols-3 > *,
-.row-cols-4 > *,
-.row-cols-5 > *,
-.row-cols-6 > * {
-    flex: 0 0 auto;
-}
 
 .col {
     flex: 1 0 0%;
@@ -25,3 +17,8 @@
     flex: 0 0 auto;
     width: auto;
 }
+
+/* cells by default take up "remaining" width --- FILL */
+/* cells with .auto shrink. --- SHRINK*/
+/* flex: 0 0 auto */
+/* width: auto */
