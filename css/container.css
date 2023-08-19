@@ -8,3 +8,12 @@
 .container--text {
     max-width: var(--max-width-container-text);
 }
+.container--full-width {
+    max-width: none;
+}
+.container--full-bleed {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    --gutter: 0;
+}
