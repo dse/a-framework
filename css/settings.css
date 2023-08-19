@@ -23,12 +23,41 @@
     --margin-top-nested-list: 0;
     --margin-bottom-nested-list: 0;
 
+    /* NOTE: can't use these in plain browser @media queries. */
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --breakpoint-xxl: 1400px;
+
+    --background-color-primary:   #0d6efd; /* zf #1779ba/#fefefe bs #0d6efd/#ffffff blue     */
+    --background-color-secondary: #6c757d; /* zf #767676/#fefefe bs #6c757d/#ffffff gray 600 */
+    --background-color-success:   #3adb76; /* zf #198754/#0a0a0a bs #3adb76/#ffffff green    */
+    --background-color-info:      #0dcaf0; /*                    bs #0dcaf0/#000000 cyan     */
+    --background-color-warning:   #ffc107; /* zf #ffae00/#0a0a0a bs #ffc107/#000000 yellow   */
+    --background-color-danger:    #dc3545; /* zf #cc4b37/#fefefe bs #dc3545/#ffffff red      */
+    --color-primary:   #ffffff;
+    --color-secondary: #ffffff;
+    --color-success:   #ffffff;
+    --color-info:      #000000;
+    --color-warning:   #000000;
+    --color-danger:    #ffffff;
+
+    --padding-button: 0.5rem 1.5rem;
+    --background-color-button: #222222;
+    --color-button: #f2f2f2;
+
+    --font-weight-button: bold;
+    --font-size-button: 1rem;
+    --font-style-button: normal;
+    --letter-spacing-button: 0.0625;
+    --line-height-button: 1.25;
+
+    --border-radius-button: 1000px; /* pill shape */
+    --border-style-button: solid;
+    --border-color-button: transparent;
+    --border-width-button: 1px;
 }
 
 :root {
