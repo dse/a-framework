@@ -22,6 +22,13 @@
     --gutter: 2rem;
     --margin-top-nested-list: 0;
     --margin-bottom-nested-list: 0;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
 }
 
 :root {
