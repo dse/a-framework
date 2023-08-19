@@ -1,15 +1,7 @@
-.row {
-    display: flex;              /*COMMON*/
-    flex-wrap: wrap;            /*COMMON*/
-    margin-right: calc(-0.5 * var(--bs-gutter-x)); /*COMMON*/
-    margin-left: calc(-0.5 * var(--bs-gutter-x));  /*COMMON*/
-}
 .row > * {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5); /*COMMON*/
-    padding-left: calc(var(--bs-gutter-x) * 0.5);  /*COMMON*/
 }
 
 .col {
