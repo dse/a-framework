@@ -61,18 +61,6 @@ screen and (min-width: 40em) {
         flex: 1 1 0;
         width: auto;
     }
-    .grid-x > .medium-12,
-    .grid-x > .medium-11,
-    .grid-x > .medium-10,
-    .grid-x > .medium-9,
-    .grid-x > .medium-8,
-    .grid-x > .medium-7,
-    .grid-x > .medium-6,
-    .grid-x > .medium-5,
-    .grid-x > .medium-4,
-    .grid-x > .medium-3,
-    .grid-x > .medium-2,
-    .grid-x > .medium-1,
     .grid-x > .medium-shrink {
         flex: 0 0 auto;
     }
@@ -86,55 +74,10 @@ screen and (min-width: 64em) {
         flex: 1 1 0;
         width: auto;
     }
-    .grid-x > .large-12,
-    .grid-x > .large-11,
-    .grid-x > .large-10,
-    .grid-x > .large-9,
-    .grid-x > .large-8,
-    .grid-x > .large-7,
-    .grid-x > .large-6,
-    .grid-x > .large-5,
-    .grid-x > .large-4,
-    .grid-x > .large-3,
-    .grid-x > .large-2,
-    .grid-x > .large-1,
     .grid-x > .large-shrink {
         flex: 0 0 auto;
     }
     .grid-x > .large-shrink {
         width: auto;
-    }
-}
-.grid-padding-x .grid-padding-x {
-    margin-right: -0.625rem;
-    margin-left: -0.625rem;
-}
-@media print,
-screen and (min-width: 40em) {
-    .grid-padding-x .grid-padding-x {
-        margin-right: -0.9375rem;
-        margin-left: -0.9375rem;
-    }
-}
-.grid-container:not(.full) > .grid-padding-x {
-    margin-right: -0.625rem;
-    margin-left: -0.625rem;
-}
-@media print,
-screen and (min-width: 40em) {
-    .grid-container:not(.full) > .grid-padding-x {
-        margin-right: -0.9375rem;
-        margin-left: -0.9375rem;
-    }
-}
-.grid-padding-x > .cell {
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
-}
-@media print,
-screen and (min-width: 40em) {
-    .grid-padding-x > .cell {
-        padding-right: 0.9375rem;
-        padding-left: 0.9375rem;
     }
 }
