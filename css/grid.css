@@ -4,12 +4,13 @@
     margin-right: calc(-0.5 * var(--gutter));
     margin-left: calc(-0.5 * var(--gutter));
 }
+
 .row > * {
     padding-right: calc(var(--gutter) * 0.5);
     padding-left: calc(var(--gutter) * 0.5);
 }
 
-.row > .col {                          /* fill */
+.row > .col {                   /* fill */
     flex: 1 1 0%;               /* or 1 0 0% in bs */
     width: 100%;
     min-width: 0;
@@ -41,6 +42,8 @@
     flex: 0 0 auto;
 }
 
+/* You can use these standalone, i.e., when not a child of a
+   responsive grid .row. */
 .col--1  { width: calc(100% *  1 / 12); }
 .col--2  { width: calc(100% *  2 / 12); }
 .col--3  { width: calc(100% *  3 / 12); }
