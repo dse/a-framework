@@ -9,24 +9,35 @@
     padding-left: calc(var(--gutter) * 0.5);
 }
 
-.col {                          /* fill */
+.row > .col {                          /* fill */
     flex: 1 1 0%;               /* or 1 0 0% in bs */
     width: 100%;
     min-width: 0;
 }
-.col--shrink {
+.row > .col--shrink {
     flex: 0 0 auto;
     width: auto;
 }
-.col--fill {
+.row > .col--fill {
     flex: 1 1 0%;               /* or 1 0 0% in bs */
     width: auto;
 }
-.col--full {
+.row > .col--full {
     flex: 0 0 auto;
     width: 100%;
 }
-.col--1, .col--2, .col--3, .col--4, .col--5, .col--6, .col--7, .col--8, .col--9, .col--10, .col--11, .col--12 {
+.row > .col--1,
+.row > .col--2,
+.row > .col--3,
+.row > .col--4,
+.row > .col--5,
+.row > .col--6,
+.row > .col--7,
+.row > .col--8,
+.row > .col--9,
+.row > .col--10,
+.row > .col--11,
+.row > .col--12 {
     flex: 0 0 auto;
 }
 
