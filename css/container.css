@@ -11,9 +11,15 @@
 .container--full-width {
     max-width: none;
 }
-.container--full-bleed {
-    max-width: none;
-    padding-left: 0;
-    padding-right: 0;
+.container--normal-gutter {
+    --gutter: var(--DEFAULT-GUTTER);
+}
+.container--no-gutter {
     --gutter: 0;
+}
+.container--less-gutter {
+    --gutter: calc(0.5 * var(--DEFAULT-GUTTER));
+}
+.container--more-gutter {
+    --gutter: calc(1.5 * var(--DEFAULT-GUTTER));
 }

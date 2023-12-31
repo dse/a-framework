@@ -1,4 +1,8 @@
 :root {
+    --DEFAULT-GUTTER: 2rem;
+}
+
+:root {
     --font-family: 'Arial', 'Helvetica', sans-serif;
     --font-family: 'Verdana', sans-serif;
     --font-size: 16px;
@@ -26,7 +30,7 @@
     --line-height-h6: 1.5;
 
     --max-width-container: 1200px;
-    --gutter: 2rem;
+    --gutter: var(--DEFAULT-GUTTER);
     --margin-top-nested-list: 0;
     --margin-bottom-nested-list: 0;
 
@@ -94,4 +98,4 @@
                                border-color 0.15s ease-in-out,
                                box-shadow 0.15s ease-in-out,
                                opacity 0.15s ease-in-out;
-}
+o}
